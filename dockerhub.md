@@ -5,4 +5,6 @@
 
 Easy build AppImage, RPM and DEB packages with [linuxdeploy](https://github.com/linuxdeploy/linuxdeploy) on docker.
 
-More information on [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)]()
+More information on repository:
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eduhds/docker-linuxdeploy)
