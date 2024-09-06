@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+linuxdeploy-appimage --appimage-extract-and-run $@

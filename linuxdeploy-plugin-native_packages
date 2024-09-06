@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+native_packages-appimage --appimage-extract-and-run $@
