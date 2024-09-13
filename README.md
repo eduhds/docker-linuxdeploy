@@ -26,7 +26,7 @@ docker run --rm -v $(pwd):/builder eduhds/linuxdeploy-rpm bash -c "
     --output native_packages"
 
 # .deb
-docker run --rm -v $(pwd):/builder eduhds/linuxdeploy-rpm bash -c "
+docker run --rm -v $(pwd):/builder eduhds/linuxdeploy-deb bash -c "
     LDNP_BUILD=deb LINUXDEPLOY_OUTPUT_APP_NAME=app_name LINUXDEPLOY_OUTPUT_VERSION=app_version linuxdeploy \
     --appdir /path/to/AppDir \
     --executable /path/to/executable \
